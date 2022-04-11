@@ -32,6 +32,22 @@ article{
     text-align: center;
 }
 
+.textoAnimado{
+    animation-name: texto;
+    animation-duration: 3s ;
+}
+
+@keyframes texto{
+from{
+    transform: translateX(-200px);
+}
+
+to{
+transform: translateX(0);
+}
+
+}
+
 
   @media (max-width: 480px){
 
